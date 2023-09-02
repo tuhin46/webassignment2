@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    height: 200px;
+    
+    
+    
+}
+.total{
+    width: 100%;
+    height: 1700px;
+    
+
+}
+.firstdiv{
+    max-width: 100%;
+   margin: 0;
+   padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+   
+}
+.firstdiv header{
+    margin: 0;
+    padding: 0;
+    
+}
+.firstdiv header .logo{
+    position: relative;
+    bottom: 500px;
+    padding: 20px;
+    
+    
+}
+.firstdiv header .head{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+
+}
+.firstdiv header .head ul{
+    list-style: none;
+}
+.firstdiv header .head ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.firstdiv header .head ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.firstdiv header .head ul li .inpt{
+    border: 1px solid black;
+    
+    color: white;
+    border-radius: 10px;
+    background: transparent;
+    
+   
+}
+
+  
+
+.firstdiv .body{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+
+
+}
+.firstdiv .body .input{
+    border-radius: 10px;
+   background-color: rgb(4, 97, 134);
+}
+.seconddiv{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.seconddiv .txt .pp{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.seconddiv .txt p{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+.seconddiv .img{
+    position: relative;
+    width: 90%;
+    top: 150px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.seconddiv .img .one a{
+    text-decoration: none;
+    color: green;
+}
+.seconddiv .img .two a{
+    text-decoration: none;
+    color: green;
+}
+footer {
+    background-color: rgb(41, 41, 41);
+    padding:20px;
+    position: relative;
+   top: 200px;
+   height: 200px;
+}
+footer .icons{
+   
+	
+	text-align: center;
+   
+	border-radius: 20px;
+	
+	
+	padding: 5px 0px;
+
+
+}
+footer .icons a{
+    
+	
+	
+	
+	padding: 20px 15px;
+}
+footer .icons a:hover{
+    color: brown;
+    cursor: pointer;
+}
+footer .last{
+    position: relative;
+    text-align: center;
+    top: 40px;
+   
+}
